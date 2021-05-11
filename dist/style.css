@@ -1,0 +1,20 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1.5em;
+}
+
+.card {
+    margin: 1.5em;
+}
+
+.manager {
+    width: 100%;
+}
