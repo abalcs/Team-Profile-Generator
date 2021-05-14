@@ -12,68 +12,6 @@ const outputPath = path.join(output_dir, "team.html");
 const teamArray = [];
 const idArray = [];
 
-// function createTeam() {
-//     inquirer.prompt([
-//         {
-//             name: "name",
-//             type: "input",
-//             message: "Do you want to make a team?",
-//             validate: nameInput => {
-//                 if(nameInput) {
-//                     return true;
-//                 } else {
-//                     console.log('Is this your first time with a computer?')
-//                 }
-//             }
-//         },
-//         {
-//             name: "name",
-//             type: "input",
-//             message: "What is the persons name?"
-//         },
-//         {
-//             name: "id",
-//             type: "input",
-//             message: "What is the persons work id?"
-//         },
-//         {
-//             name: "email",
-//             type: "input",
-//             message: "What is the persons email?"
-//         },
-//                 {  
-//             name: "role",
-//             type: "list",
-//             message: "What does this person do at this corporate hellscape?",
-//             choices: ['Manager', 'Engineer', 'Intern', 'No one else to add']
-//         },
-//     ]) 
-//      //inquirer prompt
-//     //switch if user chose engineer call addengineer func, if chose intern call addintern func )
-// //do you want to create eng. intern, or done
-// }
-
-// function createManager() {
-//     //inquirer prompt
-//     createTeam() 
-// }
-
-// function addEngineer() {
-//     createTeam()
-// }
-
-// function addIntern() {
-//     createTeam()
-// }
-
-// function buildTeam() {
-//     fs.writeFileSync(outputPath, render(teamMembers), "utf-8");
-// }
-
-// createManager()
-// //use inquirer to create manager
-
-
 const appMenu = () => {
     const addManager = () => {
         return inquirer
