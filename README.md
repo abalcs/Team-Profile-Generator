@@ -16,7 +16,7 @@
 
     This app was made with JavaScript and Node.js.  It allows the user to create a team profile in HTML from the command line.
 
-![Link to Video Walkthrough]()
+![Link to Video Walkthrough](https://drive.google.com/file/d/1IIjrZ9H7G_PJlc4hBeXwzD0joF0pQzUn/view)
 
 ## Installation:
     Anyone with js and node.js will be able to run this app on their text editor or terminal
